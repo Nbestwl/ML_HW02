@@ -12,11 +12,11 @@ python parser.py ./shakespeare-plays/alllines.txt
 ### command to generate run
 1. Generate new text from the text corpus:
 ```python
-hmm.py -g
+python hmm.py -g
 ```
 2. Perform text prediction given a sequence of words:
 ```python
-hmm.py -p
+python hmm.py -p
 ```
 3. Enter a sentence you desire, then it will output a prediction.
 
